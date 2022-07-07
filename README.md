@@ -4,9 +4,9 @@ My dotfiles, destined for a machine running macOS with zShell already installed.
 
 Before running, be sure to give all files in this repo execute perms:
 
-`chmod -R a+x ./`
-
-a
+```bash
+chmod -R a+x ./
+```
 
 ## Software Checklist
 
