@@ -1,12 +1,13 @@
 # Dotfiles
 
-My dotfiles, destined for a machine running macOS with zShell already installed. These are loosely based on the example by [Mathias](https://github.com/mathiasbynens/dotfiles).
+My dotfiles, destined for a machine running macOS with zShell, Ruby, and Python already installed. These are loosely based on the example by [Mathias](https://github.com/mathiasbynens/dotfiles).
 
 Before running, be sure to give all files in this repo execute perms:
 
 ```bash
 chmod -R a+x ./
 ```
+Start with `system.sh` to make sure that XCode dev tools get installed.
 
 ## Software Checklist
 
@@ -23,7 +24,6 @@ The following applications need to be installed through traditional means.
 - [ ] Firefox
 - [ ] Chrome
 - [ ] Docker
-- [ ] PyCharm
 
 ## Other Actions
 

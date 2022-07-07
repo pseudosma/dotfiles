@@ -1,5 +1,7 @@
 #Installs and configures Gitlab Runner
 
+sudo -v
+cd ~
 sudo curl --output /usr/local/bin/gitlab-runner "https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-arm64"
 echo "Installing gitlab-runner..."
 

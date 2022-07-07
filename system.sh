@@ -152,6 +152,9 @@ defaults write com.apple.TextEdit RichText -int 0
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
+# Remove .txt extension unless we add it ourselves
+defaults write com.apple.TextEdit AddExtensionToNewPlainTextFiles -int 0
+
 
 #### Terminal ####
 
@@ -182,3 +185,11 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 
+
+#### Other ####
+
+# make sure we have xcode tools
+echo "Default settings updated. Changes will take effect upon restart."
+echo
+echo "Installing XCode tools..."
+xcode-select --install
