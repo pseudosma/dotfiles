@@ -51,3 +51,7 @@ The following applications need to be installed through traditional means.
             "terminal.integrated.fontFamily": "'Roboto Mono Light for Powerline', 'PowerlineSymbols'"
         }
     ```
+
+### XCode
+
+Under `Preferences > Accounts`, set up an account to match your AppleID.
