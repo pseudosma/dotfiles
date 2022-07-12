@@ -15,7 +15,7 @@ The following applications need to be installed through traditional means.
 
 - [ ] XCode
 - [ ] VSCode
-- [ ] Azure Data Studio
+- [ ] pgAdmin
 - [ ] GIMP
 - [ ] Blender
 - [ ] Godot
@@ -39,6 +39,8 @@ The following applications need to be installed through traditional means.
 - [ ] Markdown Checkboxes
 - [ ] Markdown Preview Mermaid Support
 - [ ] markdownlint
+- [ ] SQLTools
+- [ ] SQLTools PostgresSQL/Redshift Driver
 
 ### VSCode misc
 
