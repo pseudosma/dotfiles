@@ -3,3 +3,4 @@
 echo "Installing via gem...."
 echo
 sudo gem install cocoapods
+sudo gem install xcpretty
