@@ -32,3 +32,20 @@ brew install hugo
 brew install node
 brew install thefuck
 brew install tmux
+
+# the official gitlab-runner fails to stay alive and running in the background
+# so we use the brew version
+
+brew install gitlab-runner
+brew services start gitlab-runner
+echo
+echo "Installation of gitlab-runner is complete. Would you like to register the runner now?"
+#input
+
+read -r -t 10 -p 'Y/N ' a
+if [[ $a = "Y" || $a = "y"  ]]; then
+    gitlab-runner register
+fi
+if [[ $a = "N" || $a = "n"  ]]; then
+    echo "Done!"
+fi
