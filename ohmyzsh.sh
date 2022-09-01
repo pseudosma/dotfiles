@@ -32,13 +32,13 @@ echo "---"
 echo
 echo "Remember to set your terminal's font to 'Roboto Mono Light for Powerline'"
 echo
-echo "Would you like to make the changes to the zsh config now with nano?"
+echo "Would you like to make the changes to the zsh config now?"
 
 #input
 
-read -r -t 10 -p 'Y/N ' a
+read -r -t 20 -p 'Y/N ' a
 if [[ $a = "Y" || $a = "y"  ]]; then
-    nano ~/.zshrc
+    open ~/.zshrc
 fi
 if [[ $a = "N" || $a = "n"  ]]; then
     echo "Done!"

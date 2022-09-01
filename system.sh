@@ -78,7 +78,7 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 # Show the ~/Library folder
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
+#chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Expand the following File Info panes:
 # “General”, “Open with”, and “Sharing & Permissions”
@@ -183,13 +183,3 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
-
-
-
-#### Other ####
-
-# make sure we have xcode tools
-echo "Default settings updated. Changes will take effect upon restart."
-echo
-echo "Installing XCode tools..."
-xcode-select --install

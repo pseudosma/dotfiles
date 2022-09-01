@@ -14,9 +14,9 @@ else
    cd ~
    #installation
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   #add it to the path
-   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-   eval "$(/opt/homebrew/bin/brew shellenv)"
+   #add it to the path (this is depricated)
+    #   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+    #   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # update brew and any local packages
@@ -42,7 +42,7 @@ echo
 echo "Installation of gitlab-runner is complete. Would you like to register the runner now?"
 #input
 
-read -r -t 10 -p 'Y/N ' a
+read -r -t 20 -p 'Y/N ' a
 if [[ $a = "Y" || $a = "y"  ]]; then
     gitlab-runner register
 fi
