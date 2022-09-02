@@ -49,7 +49,6 @@ The following applications need to be installed through traditional means.
 - [ ] pgAdmin
 - [ ] GIMP
 - [ ] Blender
-- [ ] Godot
 - [ ] Edge
 - [ ] Firefox
 - [ ] Chrome
