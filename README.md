@@ -72,6 +72,7 @@ If you're migrating from another machine, be sure to take the following actions:
 - [ ] markdownlint
 - [ ] SQLTools
 - [ ] SQLTools PostgresSQL/Redshift Driver
+- [ ] MongoDB
 
 ### VSCode Miscellaneous
 
