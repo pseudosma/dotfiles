@@ -13,6 +13,27 @@ If this is a fresh install of macOS, you'll need to install Git, set up the user
 ```bash
 xcode-select --install
 ```
+- [ ] Install Homebrew
+
+First, check if Homebrew is installed with:
+
+```bash
+brew -v
+```
+
+If the response indicates Homebrew isn't installed, install it with:
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Add Homebrew to the PATH by adding this entry in the `.zshrc` file under your home directory:
+
+```text
+# Add Homebrew to PATH
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+> ℹ️: If the `.zshrc` file doesn't exist, you can create it with touch `.zshrc`
 
 - [ ] If you haven't created it already, make a user in [GitHub](https://github.com).
 
@@ -39,6 +60,8 @@ chmod -R a+x ~/Desktop/dotFiles
 ```
 
 - [ ] Begin executing the scripts, starting with `system.sh` and then `brew.sh`. After that the order does not matter.
+
+> :warning: After running `ohmyzsh.sh`, a new zshrc file will be created. A copy of the original will be saved in the same directory so you'll need to reconcile any changes you've made to the new `.zshrc` file
 
 ## Software Checklist
 
