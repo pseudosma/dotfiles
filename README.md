@@ -69,7 +69,7 @@ The following applications need to be installed through traditional means.
 
 - [ ] XCode
 - [ ] VSCode
-- [ ] pgAdmin
+- [ ] Azure Data Studio
 - [ ] GIMP
 - [ ] Blender
 - [ ] Edge
